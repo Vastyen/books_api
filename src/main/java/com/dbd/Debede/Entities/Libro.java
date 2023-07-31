@@ -25,7 +25,7 @@ public class Libro {
     private Integer precio;
 
     @Column(name = "link_referencia")
-    private Integer linkReferencia;
+    private String linkReferencia;
 
     @Column(name = "stock")
     private Boolean stock;
