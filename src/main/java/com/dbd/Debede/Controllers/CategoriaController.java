@@ -27,6 +27,18 @@ public class CategoriaController {
         return categoriaService.obtenerCategoriaPorId(id);
     }
 
+
+    @GetMapping("/genero/{genero}")
+    public Categoria obtenerCategoriaPorGenero(@PathVariable String genero) {
+        Categoria categoria = categoriaService.obtenerCategoriaPorGenero(genero);
+        if (categoria == null) {
+            throw new RuntimeException("Categoría no encontrada para el género: " + genero);
+        }
+        return categoria;
+    }
+
+
+
     @PostMapping
     public Categoria crearCategoria(@RequestBody Categoria categoria) {
         return categoriaService.crearCategoria(categoria);
