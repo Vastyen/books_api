@@ -14,7 +14,7 @@ Para ejecutar este proyecto, asegúrese de tener instalados los siguientes compo
 
 1. Clonar el repositorio o descargar el código fuente como un archivo ZIP.
    ```bash
-   git clone https://github.com/tu-usuario/proyecto-venta-libros.git
+   git clone https://github.com/vastien/APi_Book.git
    ```
    O bien, puede hacer clic en el botón "Code" y luego "Download ZIP" en esta página.
 
